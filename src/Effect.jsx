@@ -12,7 +12,7 @@ function EffectComponent() {
     };
   });
 
-  return <div>useEffect example: {time.toLocaleTimeString()}</div>;
+  return <h2>useEffect example: {time.toLocaleTimeString()}</h2>;
 }
 
 export default EffectComponent;

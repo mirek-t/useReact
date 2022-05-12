@@ -5,9 +5,10 @@ function State() {
 
   return (
     <h1
-      styles={{ color: isGreen ? "green" : "blue" }}
+      style={{ color: isGreen ? "green" : "blue" }}
       onClick={() => {
-        setIsGreen((prevState) => !prevState);
+        // setIsGreen(!isGreen);
+        setIsGreen((prevState) => !prevState); //poprzedni stan
       }}
     >
       useState example
