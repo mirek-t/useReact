@@ -1,7 +1,8 @@
 import { useState } from "react";
+import useMyState from "./useMyState";
 
 function State() {
-  const [isGreen, setIsGreen] = useState(true);
+  const [isGreen, setIsGreen] = useMyState(true);
 
   return (
     <h1

@@ -5,6 +5,7 @@ import MemoComponent from "./Memo";
 import ReducerComponent from "./Reducer";
 import RefComponent from "./Ref";
 import State from "./State";
+import LayoutEffect from "./LayoutEffect";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <MemoComponent />
       <hr />
       <CallbackComponent />
+      <hr />
+      <LayoutEffect />
       <hr />
     </div>
   );
