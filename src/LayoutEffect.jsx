@@ -7,7 +7,6 @@ function LayoutEffect() {
   useLayoutEffect(() => {
     setWidth(refTextArea.current.clientWidth);
     setHeight(refTextArea.current.clientHeight);
-    console.dir(refTextArea.current);
   });
 
   return (
